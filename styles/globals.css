@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-size: 18px; */
+}
+
+@font-face {
+  font-family: "Uber Regular";
+  src: url(../assets/fonts/UberMoveTextRegular.otf);
+}
+
+
+
+@font-face {
+  font-family: "Cabinet";
+  src: url(../assets/fonts/CabinetGrotesk-Variable-625aff7cd2cc651382dad82fa148d09c.ttf);
+}
+
+
+h1,
+h2 {
+  font-family: "Cabinet" !important;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Uber Regular";
+}
+
+#cta {
+  background-image: url(../assets/images/wavy-bg-black.72ada49b.png);
+}
